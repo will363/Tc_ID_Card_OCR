@@ -109,7 +109,7 @@ class EasyOcr(OcrMethod):
     
     def __init__(self, border_thresh, denoise,) -> None:
 
-        self.reader = easyocr.Reader(['tr','en'])
+        self.reader = easyocr.Reader(['fr','en'])
         self.denoise = denoise
         self.BORDER_THRSH = border_thresh
     
