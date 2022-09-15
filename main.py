@@ -4,6 +4,7 @@ from matplotlib import pyplot as plt
 import numpy as np
 import utlis
 import torch
+torch.cuda.empty_cache()
 from find_nearest_box import NearestBox
 from pytorch_unet.unet_predict import UnetModel
 from pytorch_unet.unet_predict import Res34BackBone
